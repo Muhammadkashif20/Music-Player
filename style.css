@@ -2,10 +2,10 @@
 
 body{
     background-color: #1C2834;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /* .container{
-
-    
 } */
 .main-Card{
     width: 21rem;
@@ -53,4 +53,87 @@ body{
 .fa-arrow-right{
     font-size: large;
     margin-top: .7rem;
+}
+/* .rotateImg{
+} */
+.img{
+    border-radius: 20rem;
+    animation: spin 3s linear infinite;
+}
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.musicSing{
+    margin-top: -.6rem;
+}
+.range{
+    width: 13rem;
+}
+.left-arr{
+    background-color: #46505ccb;
+    border-radius: 2rem;
+    width: 2.5rem;
+    height: 7vh;
+    margin-right: 2rem;
+    position: relative;
+    /* top: -1.8rem; */
+    box-shadow: 2px 6px 10px rgba(53, 52, 52, 0.93);
+}
+.left-arr:hover{
+    background-color: #FF6331;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.fa-backward{
+    font-size: large;
+    margin-top: .7rem;
+}
+.center-arr{
+    background-color: #46505ccb;
+    border-radius: 2rem;
+    width: 2.5rem;
+    height: 7vh;
+    margin-right: 2rem;
+    position: relative;
+    box-shadow: 2px 6px 10px rgba(53, 52, 52, 0.93);
+}
+.center-arr:hover{
+    background-color: #FF6331;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.fa-play{
+    font-size: large;
+    margin-top: .7rem;
+}
+.right-arr{
+    background-color: #46505ccb;
+    border-radius: 2rem;
+    width: 2.5rem;
+    height: 7vh;
+    position: relative;
+    box-shadow: 2px 6px 10px rgba(53, 52, 52, 0.93);
+}
+.right-arr:hover{
+    background-color: #FF6331;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.fa-forward{
+    font-size: large;
+    margin-top: .7rem;
+}
+.center{
+    margin-top: -22rem;
+}
+.systemdirection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1.5rem;
 }

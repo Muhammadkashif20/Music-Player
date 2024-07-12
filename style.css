@@ -1,0 +1,56 @@
+/* M.Kashif Music Player Styling:- */
+
+body{
+    background-color: #1C2834;
+}
+/* .container{
+
+    
+} */
+.main-Card{
+    width: 21rem;
+    height: 80vh;
+    background-color: #556574;
+    border-radius: 10px;
+    margin-top: 3.5rem;
+}
+.Rightbar{
+    background-color: #46505ccb;
+    border-radius: 2rem;
+    width: 2.5rem;
+    height: 7vh;
+    margin-left: 17rem;
+    position: relative;
+    top: .5rem;
+    box-shadow: 2px 6px 10px rgba(53, 52, 52, 0.93);
+}
+.Rightbar:hover{
+    background-color: #FF6331;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.fa-bars{
+    font-size: large;
+    margin-top: .7rem;
+
+    
+}
+.Leftbar{
+    background-color: #46505ccb;
+    border-radius: 2rem;
+    width: 2.5rem;
+    height: 7vh;
+    margin-right: 17rem;
+    position: relative;
+    top: -1.8rem;
+    box-shadow: 2px 6px 10px rgba(53, 52, 52, 0.93);
+}
+.Leftbar:hover{
+    background-color: #FF6331;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.fa-arrow-right{
+    font-size: large;
+    margin-top: .7rem;
+}

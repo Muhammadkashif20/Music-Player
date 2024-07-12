@@ -2,11 +2,10 @@
 
 body{
     background-color: #1C2834;
-    color: white;
+    /* color: white; */
     font-family: Arial, Helvetica, sans-serif;
 }
-/* .container{
-} */
+
 .main-Card{
     width: 21rem;
     height: 80vh;
@@ -81,7 +80,6 @@ body{
     height: 7vh;
     margin-right: 2rem;
     position: relative;
-    /* top: -1.8rem; */
     box-shadow: 2px 6px 10px rgba(53, 52, 52, 0.93);
 }
 .left-arr:hover{
@@ -129,7 +127,7 @@ body{
     margin-top: .7rem;
 }
 .center{
-    margin-top: -22rem;
+    margin-top: -23rem;
 }
 .systemdirection{
     display: flex;
@@ -137,3 +135,5 @@ body{
     justify-content: center;
     margin-top: 1.5rem;
 }
+
+

@@ -134,7 +134,7 @@ body {
 }
 
 /* Styling For Mobile Screen  */
-@media only screen and (max-width:360px){
+@media only screen and (max-width:320px){
   .main-Card {
     width: 15rem;
     height: 28rem;

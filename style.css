@@ -1,133 +1,146 @@
 /* M.Kashif Music Player Styling:- */
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-body{
-    background-color: #1C2834;
-    font-family: 'Ubuntu';
-    color: white;
-    
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+body {
+  background-color: #1c2834;
+  font-family: "Ubuntu";
+  color: white;
+}
+.main-Card {
+  width: 21rem;
+  height: 28rem;
+  background-color: #556574;
+  border-radius: 10px;
+  margin-top: 3.5rem;
+}
+.bars{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-top: .5rem;
+}
+.Rightbar {
+  background-color: #46505ccb;
+  border-radius: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  box-shadow: 2px 6px 10px rgba(53, 52, 52, 0.93);
+}
+.Rightbar:hover {
+  background-color: #ff6331;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+.fa-bars {
+  font-size: large;
+  margin-top: 0.7rem;
+}
+.Leftbar {
+  background-color: #46505ccb;
+  border-radius: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  box-shadow: 2px 6px 10px rgba(53, 52, 52, 0.93);
 }
 
-.main-Card{
-    width: 21rem;
-    height: 80vh;
-    background-color: #556574;
-    border-radius: 10px;
-    margin-top: 3.5rem;
+.Leftbar:hover {
+  background-color: #ff6331;
+  border-radius: 2rem;
+  cursor: pointer;
 }
-.Rightbar{
-    background-color: #46505ccb;
-    border-radius: 2rem;
-    width: 2.5rem;
-    height: 7vh;
-    margin-left: 17rem;
-    box-shadow: 2px 6px 10px rgba(53, 52, 52, 0.93);
-
+.fa-arrow-right {
+  font-size: large;
+  margin-top: 0.7rem;
 }
-.Rightbar:hover{
-    background-color: #FF6331;
-    border-radius: 2rem;
-    cursor: pointer;
-}
-.fa-bars{
-    font-size: large;
-    margin-top: .7rem;
-}
-.Leftbar{
-    background-color: #46505ccb;
-    border-radius: 2rem;
-    width: 2.5rem;
-    height: 7vh;
-    margin-right: 17rem;
-    box-shadow: 2px 6px 10px rgba(53, 52, 52, 0.93);
-    margin-top: -2.5rem;
-}
-
-.Leftbar:hover{
-    background-color: #FF6331;
-    border-radius: 2rem;
-    cursor: pointer;
-}
-.fa-arrow-right{
-    font-size: large;
-    margin-top: .7rem;
-}
-.img{
-    border-radius: 20rem;
-    animation: spin 3s linear infinite;
+.img {
+  border-radius: 20rem;
+  animation: spin 3s linear infinite;
+  width: 8rem;
 }
 @keyframes spin {
-    from{
-        transform: rotate(0deg);
-    }
-    to{
-        transform: rotate(360deg);
-    }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
-.musicSing{
-    margin-top: -.6rem;
+.musicSing {
+  margin-top: -0.6rem;
 }
-.range{
-    width: 13rem;
+.range {
+  width: 13rem;
 }
-.left-arr{
-    background-color: #46505ccb;
-    border-radius: 2rem;
-    width: 2.5rem;
-    height: 7vh;
-    margin-right: 2rem;
-    box-shadow: 2px 6px 10px rgba(53, 52, 52, 0.93);
+.left-arr {
+  background-color: #46505ccb;
+  border-radius: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 2rem;
+  box-shadow: 2px 6px 10px rgba(53, 52, 52, 0.93);
 }
-.left-arr:hover{
-    background-color: #FF6331;
-    border-radius: 2rem;
-    cursor: pointer;
+.left-arr:hover {
+  background-color: #ff6331;
+  border-radius: 2rem;
+  cursor: pointer;
 }
-.fa-backward{
-    font-size: large;
-    margin-top: .7rem;
+.fa-backward {
+  font-size: large;
+  margin-top: 0.7rem;
 }
-.center-arr{
-    background-color: #46505ccb;
-    border-radius: 2rem;
-    width: 2.5rem;
-    height: 7vh;
-    margin-right: 2rem;
-    box-shadow: 2px 6px 10px rgba(53, 52, 52, 0.93);
+.center-arr {
+  background-color: #46505ccb;
+  border-radius: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 2rem;
+  box-shadow: 2px 6px 10px rgba(53, 52, 52, 0.93);
 }
-.center-arr:hover{
-    background-color: #FF6331;
-    border-radius: 2rem;
-    cursor: pointer;
+.center-arr:hover {
+  background-color: #ff6331;
+  border-radius: 2rem;
+  cursor: pointer;
 }
-.fa-play ,.fa-pause{
-    font-size: large;
-    margin-top: .7rem;
+.fa-play,
+.fa-pause {
+  font-size: large;
+  margin-top: 0.7rem;
 }
-.right-arr{
-    background-color: #46505ccb;
-    border-radius: 2rem;
-    width: 2.5rem;
-    height: 7vh;
-    box-shadow: 2px 6px 10px rgba(53, 52, 52, 0.93);
+.right-arr {
+  background-color: #46505ccb;
+  border-radius: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  box-shadow: 2px 6px 10px rgba(53, 52, 52, 0.93);
 }
-.right-arr:hover{
-    background-color: #FF6331;
-    border-radius: 2rem;
-    cursor: pointer;
+.right-arr:hover {
+  background-color: #ff6331;
+  border-radius: 2rem;
+  cursor: pointer;
 }
-.fa-forward{
-    font-size: large;
-    margin-top: .7rem;
+.fa-forward {
+  font-size: large;
+  margin-top: 0.7rem;
 }
-.center{
-    margin-top: -23rem;
+.center {
+  margin-top: -23rem;
 }
-.systemdirection{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1.5rem;     
+.systemdirection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
 }
 
-
+/* Styling For Mobile Screen  */
+@media only screen and (min-width:480px){
+  .main-Card {
+    width: 15rem;
+    height: 28rem;
+    background-color: #556574;
+    border-radius: 10px;
+    /* margin-top: 3.5rem; */
+    margin-right: 8.5rem;
+  }
+}

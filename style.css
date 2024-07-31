@@ -134,13 +134,30 @@ body {
 }
 
 /* Styling For Mobile Screen  */
-@media only screen and (min-width:480px){
+@media only screen and (min-width:320px) and (min-height:480px){
   .main-Card {
     width: 15rem;
     height: 28rem;
     background-color: #556574;
     border-radius: 10px;
-    /* margin-top: 3.5rem; */
+    margin-bottom: .5rem;
     margin-right: 8.5rem;
+  }
+}
+
+@media only screen and (min-width:481px) and (max-width:768px){
+  .main-Card {
+    width: 21rem;
+    height: 28rem;
+    background-color: #556574;
+    border-radius: 10px;
+    margin-left: -7rem;
+  }
+  .center {
+    margin-top: -23rem;
+    margin-left: -15rem;
+  }
+  .footer{
+    margin-left: -15rem;
   }
 }

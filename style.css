@@ -134,7 +134,7 @@ body {
 }
 
 /* Styling For Mobile Screen  */
-@media only screen and (min-width:480px){
+@media only screen and (max-width:360px){
   .main-Card {
     width: 15rem;
     height: 28rem;
@@ -145,19 +145,21 @@ body {
   }
 }
 
-@media only screen and (min-width:481px) and (max-width:768px){
+@media only screen and (min-width:768px) and (max-width:1280px){
   .main-Card {
     width: 21rem;
     height: 28rem;
     background-color: #556574;
     border-radius: 10px;
-    margin-left: -7rem;
+    margin-top: 4rem;
+    margin-right: 2rem;
+
   }
   .center {
     margin-top: -23rem;
-    margin-left: -15rem;
+    margin-left: -1.5rem;
   }
   .footer{
-    margin-left: -15rem;
+    margin-left: -1.5rem;
   }
 }
